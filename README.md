@@ -79,6 +79,10 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React is a JS framework that allows us to create reuseable components that only updates the DOM when only information changes on one component by first creating a virtual DOM and comparing it
+to the Actual DOM and only updating the Actual DOM when changes are made. It solves the problem of having to refresh the site to see any changes and it saves on the use of memory.
 1. Describe component state.
-1. Describe props.
+A component state is like a snapshot of current data that represents it's current condition or 'state'. In the case of a lightbulb it has two states: on and off. With each change of state or condition, it can be updated in order to associate the change with some sort of transformation on a component.
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+Side effects are code that is run after all DOM elements specified are finished mounting. To sync effects with changes made with a React component 
+you need to use hooks such as useState or useEffect. 
